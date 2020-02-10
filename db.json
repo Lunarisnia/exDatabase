@@ -1,4 +1,4 @@
-
+{
 "movies": 
 [
   {
@@ -258,3 +258,4 @@
     "movie_image": "http://dummyimage.com/113x150.bmp/dddddd/000000"
   }
 ]
+}
