@@ -1,15 +1,1154 @@
 
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+"movies": 
+[
+  {
+    "id": 1,
+    "movie_title": "Indian Summer (a.k.a. Alive & Kicking)",
+    "genre": "Comedy|Drama",
+    "country": "United Kingdom",
+    "year": 1998,
+    "movie_image": "http://dummyimage.com/132x109.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 2,
+    "movie_title": "Conquest",
+    "genre": "Action|Adventure|Fantasy",
+    "country": "Indonesia",
+    "year": 2002,
+    "movie_image": "http://dummyimage.com/201x144.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 3,
+    "movie_title": "Stolen Life, A",
+    "genre": "Drama",
+    "country": "Lithuania",
+    "year": 2001,
+    "movie_image": "http://dummyimage.com/220x189.png/ff4444/ffffff"
+  },
+  {
+    "id": 4,
+    "movie_title": "Dog Day (Canicule)",
+    "genre": "Action|Crime|Drama|Thriller",
+    "country": "Russia",
+    "year": 2012,
+    "movie_image": "http://dummyimage.com/250x102.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 5,
+    "movie_title": "Myra Breckinridge",
+    "genre": "Comedy",
+    "country": "China",
+    "year": 2010,
+    "movie_image": "http://dummyimage.com/164x115.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 6,
+    "movie_title": "Mr. Denning Drives North",
+    "genre": "Crime|Drama|Mystery",
+    "country": "Philippines",
+    "year": 2006,
+    "movie_image": "http://dummyimage.com/111x159.bmp/dddddd/000000"
+  },
+  {
+    "id": 7,
+    "movie_title": "Souper, Le (Supper, The)",
+    "genre": "Drama",
+    "country": "China",
+    "year": 1996,
+    "movie_image": "http://dummyimage.com/142x165.png/ff4444/ffffff"
+  },
+  {
+    "id": 8,
+    "movie_title": "Shattered Glass",
+    "genre": "Crime|Drama",
+    "country": "Indonesia",
+    "year": 2002,
+    "movie_image": "http://dummyimage.com/239x174.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 9,
+    "movie_title": "Twin Dragons (Shuang long hui)",
+    "genre": "Action|Comedy",
+    "country": "France",
+    "year": 2008,
+    "movie_image": "http://dummyimage.com/164x141.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 10,
+    "movie_title": "Sissi: The Young Empress (Sissi - Die Junge Kaiserin)",
+    "genre": "Drama",
+    "country": "China",
+    "year": 2012,
+    "movie_image": "http://dummyimage.com/233x206.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 11,
+    "movie_title": "Sidestreet",
+    "genre": "Documentary",
+    "country": "Philippines",
+    "year": 1969,
+    "movie_image": "http://dummyimage.com/200x193.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 12,
+    "movie_title": "Humanité, L'",
+    "genre": "Crime|Drama",
+    "country": "China",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/216x205.png/ff4444/ffffff"
+  },
+  {
+    "id": 13,
+    "movie_title": "Not on the Lips (Pas sur la bouche)",
+    "genre": "Comedy|Musical|Romance",
+    "country": "China",
+    "year": 1988,
+    "movie_image": "http://dummyimage.com/215x194.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 14,
+    "movie_title": "The New Centurions",
+    "genre": "Action|Crime|Drama",
+    "country": "Sri Lanka",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/145x153.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 15,
+    "movie_title": "200 M.P.H.",
+    "genre": "Action|Adventure|Drama",
+    "country": "China",
+    "year": 1995,
+    "movie_image": "http://dummyimage.com/232x204.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 16,
+    "movie_title": "Place Called Chiapas, A",
+    "genre": "Documentary",
+    "country": "China",
+    "year": 1993,
+    "movie_image": "http://dummyimage.com/153x148.png/dddddd/000000"
+  },
+  {
+    "id": 17,
+    "movie_title": "Bullitt",
+    "genre": "Action|Crime|Drama|Thriller",
+    "country": "China",
+    "year": 2005,
+    "movie_image": "http://dummyimage.com/129x175.jpg/dddddd/000000"
+  },
+  {
+    "id": 18,
+    "movie_title": "Outrageous Class (Hababam sinifi)",
+    "genre": "Comedy|Drama",
+    "country": "Indonesia",
+    "year": 2011,
+    "movie_image": "http://dummyimage.com/213x181.png/dddddd/000000"
+  },
+  {
+    "id": 19,
+    "movie_title": "Underclassman",
+    "genre": "Action|Comedy|Thriller",
+    "country": "Thailand",
+    "year": 1999,
+    "movie_image": "http://dummyimage.com/173x113.bmp/cc0000/ffffff"
+  },
+  {
+    "id": 20,
+    "movie_title": "Satan's Brew (Satansbraten)",
+    "genre": "Comedy|Drama",
+    "country": "Syria",
+    "year": 1995,
+    "movie_image": "http://dummyimage.com/131x192.jpg/dddddd/000000"
+  },
+  {
+    "id": 21,
+    "movie_title": "Devil's Eye, The (Djävulens öga)",
+    "genre": "Comedy|Drama|Fantasy",
+    "country": "China",
+    "year": 2012,
+    "movie_image": "http://dummyimage.com/112x222.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 22,
+    "movie_title": "The Lone Wolf Spy Hunt",
+    "genre": "(no genres listed)",
+    "country": "France",
+    "year": 2003,
+    "movie_image": "http://dummyimage.com/172x132.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 23,
+    "movie_title": "Mon oncle d'Amérique",
+    "genre": "Drama",
+    "country": "China",
+    "year": 2001,
+    "movie_image": "http://dummyimage.com/214x138.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 24,
+    "movie_title": "Elvis Meets Nixon",
+    "genre": "Comedy|Drama",
+    "country": "Indonesia",
+    "year": 2006,
+    "movie_image": "http://dummyimage.com/158x197.png/dddddd/000000"
+  },
+  {
+    "id": 25,
+    "movie_title": "Hornets' Nest",
+    "genre": "Action|Drama|War",
+    "country": "China",
+    "year": 1995,
+    "movie_image": "http://dummyimage.com/112x120.png/dddddd/000000"
+  },
+  {
+    "id": 26,
+    "movie_title": "Death Wish 2",
+    "genre": "Action|Drama",
+    "country": "Russia",
+    "year": 1989,
+    "movie_image": "http://dummyimage.com/191x134.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 27,
+    "movie_title": "Arranged",
+    "genre": "Comedy|Drama|Romance",
+    "country": "Canada",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/138x193.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 28,
+    "movie_title": "Soylent Green",
+    "genre": "Drama|Mystery|Sci-Fi|Thriller",
+    "country": "United States",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/139x248.png/cc0000/ffffff"
+  },
+  {
+    "id": 29,
+    "movie_title": "Harder They Fall, The",
+    "genre": "Drama|Film-Noir",
+    "country": "Colombia",
+    "year": 1994,
+    "movie_image": "http://dummyimage.com/218x242.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 30,
+    "movie_title": "White Oleander",
+    "genre": "Drama",
+    "country": "South Africa",
+    "year": 2009,
+    "movie_image": "http://dummyimage.com/136x195.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 31,
+    "movie_title": "Felon",
+    "genre": "Crime|Drama",
+    "country": "Thailand",
+    "year": 2006,
+    "movie_image": "http://dummyimage.com/244x227.bmp/cc0000/ffffff"
+  },
+  {
+    "id": 32,
+    "movie_title": "Secret of Moonacre, The",
+    "genre": "Adventure|Fantasy|Romance",
+    "country": "Indonesia",
+    "year": 2008,
+    "movie_image": "http://dummyimage.com/113x150.bmp/dddddd/000000"
+  },
+  {
+    "id": 33,
+    "movie_title": "Blame (6 Films to Keep You Awake) (Películas para no dormir: La culpa)",
+    "genre": "Drama|Horror|Mystery",
+    "country": "Indonesia",
+    "year": 2010,
+    "movie_image": "http://dummyimage.com/130x177.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 34,
+    "movie_title": "Tarzan Escapes",
+    "genre": "Action|Adventure",
+    "country": "Philippines",
+    "year": 1996,
+    "movie_image": "http://dummyimage.com/177x221.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 35,
+    "movie_title": "Karan Arjun",
+    "genre": "Drama",
+    "country": "China",
+    "year": 1999,
+    "movie_image": "http://dummyimage.com/131x177.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 36,
+    "movie_title": "Cigarettes and Coffee (Un cartus de kent si un pachet de cafea)",
+    "genre": "Drama",
+    "country": "China",
+    "year": 2000,
+    "movie_image": "http://dummyimage.com/177x127.png/dddddd/000000"
+  },
+  {
+    "id": 37,
+    "movie_title": "Black River (Kuroi kawa)",
+    "genre": "Drama",
+    "country": "China",
+    "year": 2011,
+    "movie_image": "http://dummyimage.com/241x108.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 38,
+    "movie_title": "King Kong",
+    "genre": "Action|Adventure|Drama|Fantasy|Thriller",
+    "country": "France",
+    "year": 2011,
+    "movie_image": "http://dummyimage.com/172x126.png/ff4444/ffffff"
+  },
+  {
+    "id": 39,
+    "movie_title": "Meshes of the Afternoon",
+    "genre": "Fantasy",
+    "country": "Brazil",
+    "year": 1993,
+    "movie_image": "http://dummyimage.com/223x163.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 40,
+    "movie_title": "Jet Lag (Décalage horaire)",
+    "genre": "Comedy|Romance",
+    "country": "Bulgaria",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/228x132.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 41,
+    "movie_title": "Street Trash",
+    "genre": "Comedy|Horror",
+    "country": "Portugal",
+    "year": 1994,
+    "movie_image": "http://dummyimage.com/209x159.png/cc0000/ffffff"
+  },
+  {
+    "id": 42,
+    "movie_title": "Last Play at Shea, The",
+    "genre": "Documentary|Musical",
+    "country": "Papua New Guinea",
+    "year": 2001,
+    "movie_image": "http://dummyimage.com/199x127.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 43,
+    "movie_title": "Black Rain (Kuroi ame)",
+    "genre": "Drama|War",
+    "country": "Poland",
+    "year": 2005,
+    "movie_image": "http://dummyimage.com/204x144.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 44,
+    "movie_title": "Assault on Precinct 13",
+    "genre": "Action|Thriller",
+    "country": "Bosnia and Herzegovina",
+    "year": 2012,
+    "movie_image": "http://dummyimage.com/131x145.bmp/cc0000/ffffff"
+  },
+  {
+    "id": 45,
+    "movie_title": "The Vengeance of Fu Manchu",
+    "genre": "Action|Crime|Drama|Horror",
+    "country": "Brazil",
+    "year": 1984,
+    "movie_image": "http://dummyimage.com/243x134.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 46,
+    "movie_title": "Godzilla: Final Wars (Gojira: Fainaru uôzu)",
+    "genre": "Action|Adventure|Fantasy|Sci-Fi",
+    "country": "Malaysia",
+    "year": 1996,
+    "movie_image": "http://dummyimage.com/127x118.bmp/dddddd/000000"
+  },
+  {
+    "id": 47,
+    "movie_title": "Cape Fear",
+    "genre": "Crime|Drama|Thriller",
+    "country": "Kenya",
+    "year": 1991,
+    "movie_image": "http://dummyimage.com/122x182.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 48,
+    "movie_title": "Stand and Deliver",
+    "genre": "Comedy|Drama",
+    "country": "Poland",
+    "year": 2009,
+    "movie_image": "http://dummyimage.com/194x248.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 49,
+    "movie_title": "Loft (Rofuto)",
+    "genre": "Horror",
+    "country": "China",
+    "year": 2003,
+    "movie_image": "http://dummyimage.com/137x241.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 50,
+    "movie_title": "Lonely Hearts",
+    "genre": "Crime|Drama|Thriller",
+    "country": "China",
+    "year": 2010,
+    "movie_image": "http://dummyimage.com/243x166.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 51,
+    "movie_title": "Lucky Star",
+    "genre": "Drama|Romance",
+    "country": "Philippines",
+    "year": 1998,
+    "movie_image": "http://dummyimage.com/228x174.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 52,
+    "movie_title": "Kaho Naa... Pyaar Hai",
+    "genre": "Action|Adventure|Comedy|Drama|Mystery|Romance|Thriller",
+    "country": "Pakistan",
+    "year": 1996,
+    "movie_image": "http://dummyimage.com/168x114.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 53,
+    "movie_title": "On the Waterfront",
+    "genre": "Crime|Drama",
+    "country": "Russia",
+    "year": 1974,
+    "movie_image": "http://dummyimage.com/129x249.png/cc0000/ffffff"
+  },
+  {
+    "id": 54,
+    "movie_title": "À propos de Nice",
+    "genre": "Documentary",
+    "country": "Indonesia",
+    "year": 2000,
+    "movie_image": "http://dummyimage.com/201x192.bmp/dddddd/000000"
+  },
+  {
+    "id": 55,
+    "movie_title": "The Body",
+    "genre": "Mystery|Thriller",
+    "country": "China",
+    "year": 1998,
+    "movie_image": "http://dummyimage.com/190x111.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 56,
+    "movie_title": "Manchurian Candidate, The",
+    "genre": "Crime|Thriller|War",
+    "country": "China",
+    "year": 2007,
+    "movie_image": "http://dummyimage.com/170x203.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 57,
+    "movie_title": "Smooth Talk",
+    "genre": "Drama|Romance",
+    "country": "Peru",
+    "year": 1997,
+    "movie_image": "http://dummyimage.com/175x150.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 58,
+    "movie_title": "Never Say... Never! (Il ne faut jurer... de rien!)",
+    "genre": "Comedy",
+    "country": "Guatemala",
+    "year": 1994,
+    "movie_image": "http://dummyimage.com/121x178.bmp/cc0000/ffffff"
+  },
+  {
+    "id": 59,
+    "movie_title": "Northanger Abbey",
+    "genre": "Drama|Romance",
+    "country": "Egypt",
+    "year": 2007,
+    "movie_image": "http://dummyimage.com/202x121.bmp/cc0000/ffffff"
+  },
+  {
+    "id": 60,
+    "movie_title": "I'm the One That I Want",
+    "genre": "Comedy",
+    "country": "China",
+    "year": 2005,
+    "movie_image": "http://dummyimage.com/208x184.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 61,
+    "movie_title": "On Earth as It Is in Heaven (Así en el cielo como en la tierra)",
+    "genre": "Comedy",
+    "country": "Philippines",
+    "year": 2006,
+    "movie_image": "http://dummyimage.com/233x224.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 62,
+    "movie_title": "Line, The (La linea)",
+    "genre": "Action|Crime|Drama|Thriller",
+    "country": "Kenya",
+    "year": 2012,
+    "movie_image": "http://dummyimage.com/145x102.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 63,
+    "movie_title": "Just the Ticket",
+    "genre": "Comedy|Romance",
+    "country": "Peru",
+    "year": 2003,
+    "movie_image": "http://dummyimage.com/138x174.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 64,
+    "movie_title": "Undertaker and His Pals, The",
+    "genre": "Comedy|Horror",
+    "country": "Cape Verde",
+    "year": 2009,
+    "movie_image": "http://dummyimage.com/234x103.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 65,
+    "movie_title": "Stepford Wives, The",
+    "genre": "Comedy|Fantasy|Thriller",
+    "country": "Brazil",
+    "year": 1986,
+    "movie_image": "http://dummyimage.com/182x155.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 66,
+    "movie_title": "Han Gong-ju",
+    "genre": "Drama",
+    "country": "Peru",
+    "year": 2008,
+    "movie_image": "http://dummyimage.com/203x215.bmp/cc0000/ffffff"
+  },
+  {
+    "id": 67,
+    "movie_title": "Einstein and Eddington",
+    "genre": "Drama",
+    "country": "Ivory Coast",
+    "year": 2011,
+    "movie_image": "http://dummyimage.com/180x153.bmp/dddddd/000000"
+  },
+  {
+    "id": 68,
+    "movie_title": "Breakfast of Champions",
+    "genre": "Comedy|Sci-Fi",
+    "country": "Sweden",
+    "year": 2011,
+    "movie_image": "http://dummyimage.com/183x161.png/dddddd/000000"
+  },
+  {
+    "id": 69,
+    "movie_title": "Shanghai Kiss",
+    "genre": "Comedy|Drama|Romance",
+    "country": "Indonesia",
+    "year": 1993,
+    "movie_image": "http://dummyimage.com/250x213.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 70,
+    "movie_title": "Single White Female",
+    "genre": "Drama|Thriller",
+    "country": "Greece",
+    "year": 1990,
+    "movie_image": "http://dummyimage.com/250x170.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 71,
+    "movie_title": "Stonewall Uprising",
+    "genre": "Documentary",
+    "country": "Philippines",
+    "year": 2007,
+    "movie_image": "http://dummyimage.com/223x104.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 72,
+    "movie_title": "Traveler, The",
+    "genre": "Horror|Thriller",
+    "country": "Sudan",
+    "year": 2010,
+    "movie_image": "http://dummyimage.com/244x148.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 73,
+    "movie_title": "Jim Carrey: Unnatural Act",
+    "genre": "Comedy|Documentary",
+    "country": "United Kingdom",
+    "year": 2012,
+    "movie_image": "http://dummyimage.com/118x156.bmp/dddddd/000000"
+  },
+  {
+    "id": 74,
+    "movie_title": "Away We Go",
+    "genre": "Comedy|Drama|Romance",
+    "country": "Indonesia",
+    "year": 1994,
+    "movie_image": "http://dummyimage.com/130x153.png/cc0000/ffffff"
+  },
+  {
+    "id": 75,
+    "movie_title": "California Split",
+    "genre": "Comedy|Drama",
+    "country": "Czech Republic",
+    "year": 1996,
+    "movie_image": "http://dummyimage.com/169x119.png/dddddd/000000"
+  },
+  {
+    "id": 76,
+    "movie_title": "Hours, The",
+    "genre": "Drama|Romance",
+    "country": "Russia",
+    "year": 2002,
+    "movie_image": "http://dummyimage.com/240x108.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 77,
+    "movie_title": "Flightplan",
+    "genre": "Action|Drama|Thriller",
+    "country": "China",
+    "year": 1966,
+    "movie_image": "http://dummyimage.com/237x194.png/dddddd/000000"
+  },
+  {
+    "id": 78,
+    "movie_title": "Dirty Pictures",
+    "genre": "Drama",
+    "country": "Cuba",
+    "year": 1998,
+    "movie_image": "http://dummyimage.com/118x211.png/dddddd/000000"
+  },
+  {
+    "id": 79,
+    "movie_title": "Trick",
+    "genre": "Comedy|Romance",
+    "country": "Ecuador",
+    "year": 2000,
+    "movie_image": "http://dummyimage.com/119x110.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 80,
+    "movie_title": "Model",
+    "genre": "Documentary",
+    "country": "Colombia",
+    "year": 1985,
+    "movie_image": "http://dummyimage.com/209x121.bmp/cc0000/ffffff"
+  },
+  {
+    "id": 81,
+    "movie_title": "Price of Glory",
+    "genre": "Drama",
+    "country": "Israel",
+    "year": 1989,
+    "movie_image": "http://dummyimage.com/181x234.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 82,
+    "movie_title": "Dr. Mabuse: The Gambler (Dr. Mabuse, der Spieler)",
+    "genre": "Crime|Mystery|Thriller",
+    "country": "Bangladesh",
+    "year": 2010,
+    "movie_image": "http://dummyimage.com/236x185.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 83,
+    "movie_title": "Silent Scream, The",
+    "genre": "Horror|Thriller",
+    "country": "Norway",
+    "year": 2008,
+    "movie_image": "http://dummyimage.com/211x209.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 84,
+    "movie_title": "The Last Round",
+    "genre": "Action|Thriller",
+    "country": "Uzbekistan",
+    "year": 1992,
+    "movie_image": "http://dummyimage.com/115x155.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 85,
+    "movie_title": "House of Small Cubes, The (Tsumiki no ie)",
+    "genre": "Animation|Drama",
+    "country": "Uganda",
+    "year": 2001,
+    "movie_image": "http://dummyimage.com/162x167.jpg/dddddd/000000"
+  },
+  {
+    "id": 86,
+    "movie_title": "Sign of Four, The",
+    "genre": "Adventure|Crime|Drama",
+    "country": "China",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/209x238.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 87,
+    "movie_title": "Touchy Feely",
+    "genre": "Drama",
+    "country": "Philippines",
+    "year": 1996,
+    "movie_image": "http://dummyimage.com/202x165.png/ff4444/ffffff"
+  },
+  {
+    "id": 88,
+    "movie_title": "Kingdom, The (Riget)",
+    "genre": "Drama|Horror|Mystery",
+    "country": "Indonesia",
+    "year": 2010,
+    "movie_image": "http://dummyimage.com/165x110.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 89,
+    "movie_title": "Niko & the Way to the Stars (a.k.a. The Flight Before Christmas) (Niko - Lentäjän poika)",
+    "genre": "Adventure|Animation|Children|Drama|Fantasy",
+    "country": "Philippines",
+    "year": 2000,
+    "movie_image": "http://dummyimage.com/182x187.jpg/cc0000/ffffff"
+  },
+  {
+    "id": 90,
+    "movie_title": "Great Communist Bank Robbery (Marele jaf comunist)",
+    "genre": "Documentary",
+    "country": "China",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/101x242.png/ff4444/ffffff"
+  },
+  {
+    "id": 91,
+    "movie_title": "Spirit of St. Louis, The",
+    "genre": "Adventure|Drama",
+    "country": "Kiribati",
+    "year": 2002,
+    "movie_image": "http://dummyimage.com/228x117.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 92,
+    "movie_title": "Nothing But Trouble",
+    "genre": "Adventure|Comedy",
+    "country": "Canada",
+    "year": 2001,
+    "movie_image": "http://dummyimage.com/156x116.png/dddddd/000000"
+  },
+  {
+    "id": 93,
+    "movie_title": "Lady with the Dog, The (Dama s sobachkoy)",
+    "genre": "Drama|Romance",
+    "country": "Tunisia",
+    "year": 1992,
+    "movie_image": "http://dummyimage.com/250x128.bmp/ff4444/ffffff"
+  },
+  {
+    "id": 94,
+    "movie_title": "Frozen Assets",
+    "genre": "Comedy",
+    "country": "Bulgaria",
+    "year": 2008,
+    "movie_image": "http://dummyimage.com/180x179.jpg/ff4444/ffffff"
+  },
+  {
+    "id": 95,
+    "movie_title": "President's Last Bang, The (Geuddae geusaramdeul)",
+    "genre": "Comedy|Crime|Drama",
+    "country": "Indonesia",
+    "year": 1996,
+    "movie_image": "http://dummyimage.com/163x153.jpg/5fa2dd/ffffff"
+  },
+  {
+    "id": 96,
+    "movie_title": "Best Defense",
+    "genre": "Comedy|War",
+    "country": "Indonesia",
+    "year": 2009,
+    "movie_image": "http://dummyimage.com/195x216.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 97,
+    "movie_title": "Hooper",
+    "genre": "Action|Comedy",
+    "country": "Peru",
+    "year": 1994,
+    "movie_image": "http://dummyimage.com/162x139.bmp/5fa2dd/ffffff"
+  },
+  {
+    "id": 98,
+    "movie_title": "Charlie Chan in Egypt",
+    "genre": "Mystery",
+    "country": "Croatia",
+    "year": 2004,
+    "movie_image": "http://dummyimage.com/194x198.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 99,
+    "movie_title": "Mentiras y gordas",
+    "genre": "Comedy|Drama|Romance",
+    "country": "Cameroon",
+    "year": 1993,
+    "movie_image": "http://dummyimage.com/188x105.png/cc0000/ffffff"
+  },
+  {
+    "id": 100,
+    "movie_title": "Jennifer 8",
+    "genre": "Mystery|Thriller",
+    "country": "China",
+    "year": 2012,
+    "movie_image": "http://dummyimage.com/136x161.bmp/5fa2dd/ffffff"
+  },
+  {
+    "movie_title": "a",
+    "genre": "a",
+    "year": "a",
+    "id": 101
+  },
+  {
+    "title": "foo",
+    "body": "bar",
+    "userId": 1,
+    "id": 102
+  },
+  {
+    "title": "foo",
+    "body": "bar",
+    "userId": 1,
+    "id": 103
+  },
+  {
+    "movie_title": "Finding Nemo",
+    "genre": "Psychological Horror",
+    "userId": 1,
+    "id": 104
+  },
+  {
+    "id": 105
+  },
+  {
+    "id": 106
+  },
+  {
+    "movie_title": "Finding Nemo",
+    "genre": "Psychological Horror",
+    "year": 2003,
+    "id": 107
+  },
+  {
+    "movie_title": "Interstellar",
+    "genre": "Adventure|Drama|Sci-fi",
+    "year": 2014,
+    "id": 108
+  },
+  {
+    "movie_title": "asa",
+    "genr": "comedian",
+    "country": "",
+    "year": "",
+    "movie_image": "",
+    "id": 109
+  },
+  {
+    "movie_title": "Makan Apa",
+    "genre": "Comedy",
+    "country": "Indonesia",
+    "year": "2018",
+    "movie_image": "https://www.petanikode.com/img/git/vscode/refresh.png",
+    "id": 110
+  },
+  {
+    "movie_title": "Finding Dory",
+    "genre": "Adventure|Comedy",
+    "year": 2016,
+    "id": 111
+  },
+  {
+    "movie_title": "gak tau",
+    "genre": "gak tau",
+    "country": "bekasi",
+    "year": "besok",
+    "movie_image": "https://dummyimage.com/201x144.png/5fa2dd/ffffff",
+    "id": 112
+  },
+  {
+    "id": 113
+  },
+  {
+    "id": 114
+  },
+  {
+    "movie_title": "Angry Birds",
+    "genre": {},
+    "country": {},
+    "year": 1997,
+    "id": 115
+  },
+  {
+    "movie_title": "Back to the beat",
+    "genre": "T",
+    "country": "Zimbabwe",
+    "year": "2020",
+    "movie_image": "https://dummyimage.com/201x144.png/5fa2dd/ffffff",
+    "id": 116
+  },
+  {
+    "movie_title": "Dora the explorer",
+    "genre": "Pyschological Terror",
+    "country": "Afghanistan",
+    "year": 1967,
+    "id": 117
+  },
+  {
+    "movie_title": "Test Film",
+    "genre": "Thriller",
+    "year": 2015,
+    "id": 118
+  },
+  {
+    "movie_title": "Test Film",
+    "genre": "Thriller",
+    "year": 2015,
+    "id": 119
+  },
+  {
+    "movie_title": "testa",
+    "genre": "Thriller",
+    "year": 2015,
+    "id": 120
+  },
+  {
+    "movie_title": "Testa",
+    "genre": "Testb",
+    "year": 2015,
+    "id": 121
+  },
+  {
+    "movie_title": "Johnny of The Seven Deadly Sins",
+    "genre": "Action|Drama|Romance",
+    "country": "America",
+    "year": 2017,
+    "movie_image": "https://dummyimage.com/201x144.png/5fa2dd/ffffff",
+    "id": 122
+  },
+  {
+    "movie_title": "testc",
+    "genre": "testd",
+    "year": 2015,
+    "id": 123
+  },
+  {
+    "movie_title": "Ugandan Knuckles",
+    "genre": "Action|Superhero|Romance",
+    "country": "Uganda",
+    "year": 2018,
+    "movie_image": "https://dummyimage.com/201x144.png/5fa2dd/ffffff",
+    "id": 124
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "year": "",
+    "id": 125
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "year": "",
+    "id": 126
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "year": "",
+    "id": 127
+  },
+  {
+    "movie_title": "afina",
+    "genre": "a",
+    "year": "a",
+    "id": 128
+  },
+  {
+    "movie_title": "Crash Landing ",
+    "genre": "Comedy, Drama",
+    "country": "Korean",
+    "year": "2019",
+    "movie_image": "https://youwatch.vip/wp-content/uploads/2019/12/Nonton-Crash-Landing-on-You-Subtitle-Indonesia.jpg",
+    "id": 129
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "year": "",
+    "id": 130
+  },
+  {
+    "movie_title": "sads",
+    "genre": "dsd",
+    "year": "1998",
+    "id": 131
+  },
+  {
+    "movie_title": "sads",
+    "genre": "dsd",
+    "year": "1998",
+    "id": 132
+  },
+  {
+    "movie_title": "sads",
+    "genre": "dsd",
+    "year": "1998",
+    "id": 133
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "country": "",
+    "year": "",
+    "movie_image": "",
+    "id": 134
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "country": "",
+    "year": "",
+    "movie_image": "",
+    "id": 135
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "country": "",
+    "year": "",
+    "movie_image": "",
+    "id": 136
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "country": "",
+    "year": "",
+    "movie_image": "",
+    "id": 137
+  },
+  {
+    "movie_title": "sa",
+    "genre": "",
+    "country": "",
+    "year": "",
+    "movie_image": "",
+    "id": 138
+  },
+  {
+    "movie_title": "assasin creed",
+    "genre": "",
+    "country": "",
+    "year": "",
+    "movie_image": "",
+    "id": 139
+  },
+  {
+    "movie_title": "assasin",
+    "genre": "action",
+    "country": "france",
+    "year": "2000",
+    "movie_image": "http://dummyimage.com/132x109.png/5fa2dd/ffffff",
+    "id": 140
+  },
+  {
+    "movie_title": "askdh",
+    "genre": "oiad",
+    "country": "das",
+    "year": "2019",
+    "id": 141
+  },
+  {
+    "movie_title": "askdh",
+    "genre": "oiad",
+    "country": "das",
+    "year": "2019",
+    "id": 142
+  },
+  {
+    "movie_title": "askdh",
+    "genre": "oiad",
+    "country": "das",
+    "year": "2019",
+    "id": 143
+  },
+  {
+    "movie_title": "askdh",
+    "genre": "oiad",
+    "country": "das",
+    "year": "2019",
+    "id": 144
+  },
+  {
+    "movie_title": "askdh",
+    "genre": "oiad",
+    "country": "das",
+    "year": "2019",
+    "id": 145
+  },
+  {
+    "movie_title": "Kuman adventure",
+    "genre": "Romance",
+    "country": "Tambun",
+    "year": 2918,
+    "movie_image": "https://dummyimage.com/201x144.png/5fa2dd/ffffff",
+    "id": 146
+  },
+  {
+    "movie_title": "300",
+    "genre": "Adult",
+    "year": "2020",
+    "id": 147
+  },
+  {
+    "movie_title": "Apalah",
+    "genre": "Comedy",
+    "country": "Bekasi",
+    "year": "2021",
+    "id": 148
+  },
+  {
+    "movie_title": "Teu Naon Naon",
+    "genre": "Bobodoran",
+    "country": "Subang",
+    "year": "2030",
+    "id": 149
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "country": "",
+    "year": "2000",
+    "id": 150
+  },
+  {
+    "movie_title": "",
+    "genre": "",
+    "country": "",
+    "year": "",
+    "id": 151
+  },
+  {
+    "movie_title": "Pusing the movie",
+    "genre": "Survival Horror",
+    "country": "Indonesia",
+    "year": "2030",
+    "id": 152
+  },
+  {
+    "movie_title": "Bedebah",
+    "genre": "Drama",
+    "country": "Afghanistan",
+    "year": 2020,
+    "movie_image": "https://dummyimage.com/201x144.png/5fa2dd/ffffff",
+    "id": 153
   }
-}
+]
